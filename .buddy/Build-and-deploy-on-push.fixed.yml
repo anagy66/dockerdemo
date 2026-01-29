@@ -1,0 +1,8 @@
+- pipeline: build-and-deploy-on-push
+  name: Build and deploy on push
+  refs:
+  - refs/heads/main
+  fail_on_prepare_env_warning: true
+  resources: NANO
+  events:
+  - type: WEBHOOK
