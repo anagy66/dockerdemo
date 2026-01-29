@@ -24,3 +24,9 @@
   - action: Build Docker image
     type: DOCKERFILE
     do_not_prune_images: true
+  - action: Push Docker image
+    type: DOCKER_PUSH
+    docker_image_tag: latest
+    docker_registry: DOCKER_HUB
+    integration: docker-hub
+    repository: anagy66/dockerdemo
