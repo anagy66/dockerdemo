@@ -7,7 +7,7 @@
   events:
   - type: WEBHOOK
   actions:
-  - action: python3 tests.py
+  - action: Run Unit Tests
     type: BUILD
     execute_commands:
     - pip install -r requirements.txt
