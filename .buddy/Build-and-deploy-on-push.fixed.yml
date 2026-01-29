@@ -24,9 +24,3 @@
   - action: Build Docker image
     type: DOCKERFILE
     do_not_prune_images: true
-  - action: Run Docker Container
-    type: RUN_DOCKER_CONTAINER
-    mount_filesystem_disable: true
-    volume_mappings: []
-    image_location: ACTION
-    docker_registry: DOCKER_HUB
