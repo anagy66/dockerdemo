@@ -28,5 +28,5 @@
     type: RUN_DOCKER_CONTAINER
     mount_filesystem_disable: true
     volume_mappings: []
-    docker_image_name: anagy66/dockerdemo
-    docker_image_tag: latest
+    image_location: ACTION
+    docker_registry: DOCKER_HUB
