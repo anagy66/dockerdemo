@@ -17,3 +17,7 @@
     shell: BASH
     docker_image_name: library/python
     docker_image_tag: 3.14.2
+  - action: Lint Dockerfile
+    type: DOCKERFILE_LINTER
+    local_path: Dockerfile
+    shell_type: sh
