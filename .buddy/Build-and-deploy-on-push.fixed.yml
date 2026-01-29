@@ -24,3 +24,9 @@
   - action: Build Docker image
     type: DOCKERFILE
     do_not_prune_images: true
+  - action: Run Docker Container
+    type: RUN_DOCKER_CONTAINER
+    mount_filesystem_disable: true
+    volume_mappings: []
+    docker_image_name: anagy66/dockerdemo
+    docker_image_tag: latest
